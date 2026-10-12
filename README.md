@@ -2,23 +2,11 @@
 
 ## Présentation
 
-Ce repository présente un **QA Audit ciblé** réalisé sur **NutriLife**, une application web dédiée à la planification des repas et au suivi de l'alimentation.
+Ce repository présente un **audit QA ciblé** d'une application web dédiée à la planification des repas et au suivi de l'alimentation.
 
-L'objectif de cet audit est d'évaluer rapidement certains parcours clés de l'application, d'identifier d'éventuels bugs et de fournir des retours structurés sur l'expérience utilisateur.
+L'objectif est de démontrer une démarche de QA manuelle : définition du périmètre, conception d'une checklist, consignation des résultats, séparation entre bugs confirmés et observations UX, et synthèse des risques.
 
-## Objectifs de l'audit
-
-L'audit vise principalement à :
-
-- Vérifier les principaux parcours utilisateurs.
-- Identifier les éventuels bugs fonctionnels.
-- Vérifier certains comportements inattendus.
-- Effectuer une courte session d'**Exploratory Testing**.
-- Fournir des retours QA structurés à l'équipe NutriLife.
-
-## Périmètre
-
-L'audit couvre principalement :
+## Périmètre déclaré
 
 - Registration & Onboarding
 - Meal Planning
@@ -27,50 +15,39 @@ L'audit couvre principalement :
 
 ## Méthodologie
 
-L'audit est réalisé à travers :
-
 - Functional Testing
 - Exploratory Testing
 - Positive / Negative Testing
-- Vérification de quelques cas limites
-- Reproduction et documentation des anomalies identifiées
+- Vérification de cas limites simples
+- Documentation des anomalies reproductibles
 
-Les anomalies confirmées sont documentées avec leurs étapes de reproduction, leur résultat attendu, leur résultat obtenu et leur **Severity**.
+Les tests API, performance, sécurité, automatisation et compatibilité multi-navigateurs approfondie sont hors périmètre de cet audit.
 
 ## Livrables
 
-Le projet comprend :
+| Fichier | Description |
+|---|---|
+| [01-Test-Scope.md](NutriLife-QA-Audit/01-Test-Scope.md) | Périmètre, types de tests et limites |
+| [02-Test-Checklist.md](NutriLife-QA-Audit/02-Test-Checklist.md) | 18 vérifications avec statut rapporté et limite de traçabilité |
+| [03-Test-Execution.xlsx](NutriLife-QA-Audit/03-Test-Execution.xlsx) | Registre structuré des statuts rapportés et des preuves à compléter |
+| [04-Bug-Reports.md](NutriLife-QA-Audit/04-Bug-Reports.md) | Synthèse des bugs confirmés rapportés |
+| [05-QA-Summary.md](NutriLife-QA-Audit/05-QA-Summary.md) | Résultats agrégés, observations et limites |
+| [06-QA-Observations.md](NutriLife-QA-Audit/06-QA-Observations.md) | Observations UX à suivre séparément des bugs |
 
-- Test Scope
-- Test Checklist
-- Test Execution
-- Bug Reports
-- QA Summary
+## Résultats actuellement documentés
 
-## Environnement de test
+Le rapport initial indique 18 tests exécutés, 18 PASS, 0 FAIL et 0 bug fonctionnel confirmé. Ces chiffres sont identifiés comme **résultats rapportés** : les preuves détaillées test par test doivent être récupérées et ajoutées pour assurer la traçabilité.
 
-L'environnement et les informations techniques utilisés seront documentés dans les résultats d'exécution.
+## Statut du projet
 
-## Statut
-
-**Audit en cours**
-
-> Les résultats présentés dans ce repository correspondent uniquement aux observations réalisées pendant cette session de QA.
+**Documentation en consolidation.** La structure des livrables est en place, mais l'audit ne doit pas être présenté comme entièrement vérifiable tant que les preuves d'exécution ne sont pas rattachées aux cas de test.
 
 ## À propos
 
 **Radjibou IBRAHIM**  
-Junior QA Manual Tester
+QA Manual Tester
 
-Spécialisé en :
+Compétences mobilisées : Manual Testing, Functional Testing, Exploratory Testing, Regression Testing, Bug Reporting, API Testing avec Postman et SQL.
 
-- Manual Testing
-- Functional Testing
-- Exploratory Testing
-- Regression Testing
-- Bug Reporting
-- API Testing avec Postman
-- SQL
-
-[LinkedIn](https://www.linkedin.com/in/radjibou-ibrahim)  
-[GitHub](https://github.com/radjibou-ibrahim)
+- [LinkedIn](https://www.linkedin.com/in/radjibou-ibrahim)
+- [GitHub](https://github.com/radjibou-ibrahim)
