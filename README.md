@@ -29,7 +29,7 @@ Les tests API, performance, sécurité, automatisation et compatibilité multi-n
 |---|---|
 | [01-Test-Scope.md](NutriLife-QA-Audit/01-Test-Scope.md) | Périmètre, types de tests et limites |
 | [02-Test-Checklist.md](NutriLife-QA-Audit/02-Test-Checklist.md) | 18 vérifications avec statut rapporté et limite de traçabilité |
-| [03-Test-Execution.xlsx](NutriLife-QA-Audit/03-Test-Execution.xlsx) | Registre structuré des statuts rapportés et des preuves à compléter |
+| [03-Test-Execution.csv](NutriLife-QA-Audit/03-Test-Execution.csv) | Registre CSV des statuts rapportés et des preuves à compléter |
 | [04-Bug-Reports.md](NutriLife-QA-Audit/04-Bug-Reports.md) | Synthèse des bugs confirmés rapportés |
 | [05-QA-Summary.md](NutriLife-QA-Audit/05-QA-Summary.md) | Résultats agrégés, observations et limites |
 | [06-QA-Observations.md](NutriLife-QA-Audit/06-QA-Observations.md) | Observations UX à suivre séparément des bugs |
